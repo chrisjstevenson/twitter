@@ -1,0 +1,14 @@
+{
+  tweet: [
+    '{{repeat(5, 800)}}',
+    {
+  	  id: '{{guid()}}',
+      user: '@{{firstName()}}',
+      text: '{{lorem(45, "words")}}',
+      created_at: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss Z")}}'
+    }
+  ]
+}
+
+
+
