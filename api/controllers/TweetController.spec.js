@@ -20,7 +20,6 @@ describe('TweetController', function() {
            });
         });
 
-
         it('should return Tweet model array', function(done){
            request(url, function (error, res, body) {
              var tweets = JSON.parse(body);
