@@ -9,7 +9,7 @@ function validateTweet(tweet){
 }
 
 describe('TweetController', function() {
-    var url = host + 'tweet';
+    var url = host + 'tweet/timeline';
 
     describe('GET', function() {
 

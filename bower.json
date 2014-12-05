@@ -1,0 +1,32 @@
+{
+  "name": "twitter",
+  "version": "0.0.1",
+  "homepage": "https://github.com/chrisjstevenson/twitter",
+  "authors": [
+    "Chris Stevenson <chris.j.stevenson@gmail.com>"
+  ],
+  "description": "twitter-app",
+  "main": "app.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "twitter"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.5",
+    "angular-resource": "~1.3.5",
+    "bootstrap": "~3.3.1",
+    "jquery": "~2.1.1",
+    "underscore": "~1.7.0"
+  }
+}
